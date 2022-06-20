@@ -56,11 +56,18 @@ body {
 .header_button button {
     padding: 13px 25px 13px 25px;
     border: none;
-    background: #8D448B;
-    color: #fff;
+    background: #fff;
+    color: #8D448B;
     Font-size: 16px;
     Line-height: 24px;
     border-radius: 5px;
+    transition: 0.3s;
+    border: 2px solid #8D448B ;
+}
+.header_button button:hover{
+    background: #8D448B;
+    color: #fff;
+    
 }
 
 .header_card {
@@ -91,12 +98,19 @@ body {
 .header_card button {
     border-radius: 5px;
     border: none;
-    background: #8D448B;
-    color: #fff;
+    background: #fff;
+    color: #8D448B;
+    border: 2px solid #8D448B;
+   transition: 0.3s;
     Font-size: 20px;
     Line-height: 40px;
     margin-top: 20px;
     padding: 10px 175px 10px 170px;
+}
+.header_card button:hover{
+    background: #8D448B;
+    color: #fff;
+
 }
 
 .find_workplace_text {
@@ -475,7 +489,7 @@ select {
     background: none;
     border-radius: 5px;
     padding: 13px 20px 13px 20px;
-    transition: 0.1s;
+    transition: 0.2s;
     transition-delay: 0.1s;
 }
 
@@ -524,6 +538,7 @@ select {
 
 .pricing_plan_card:hover .card_price {
     background: #F0F0F5;
+    border-top: transparent;
 
 }
 
